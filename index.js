@@ -14,7 +14,7 @@ app.use(methodOverride('_method'));
 
 app.use(productRoute);
 
-mongoose.connect('mongodb://127.0.0.1:27017/Articles').then(()=>{
+mongoose.connect('mongodb+srv://cishika104:doraemon1234@cluster0.khhhxjh.mongodb.net/Articles').then(()=>{
     console.log("db connected");
 }).catch((err)=>{
     console.log(err);
