@@ -20,7 +20,7 @@ mongoose.connect('mongodb+srv://cishika104:doraemon1234@cluster0.khhhxjh.mongodb
     console.log(err);
 })
 
-seedDB();
+// seedDB();
 
 app.listen(3000,()=>{
     console.log("Server is running");
